@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="book_sriharshini.xsl"?>  
-<!DOCTYPE books SYSTEM "books.dtd">
+<?xml-stylesheet type="text/xsl" href="book xsl_sriharshini.xsl"?>  
+<!DOCTYPE books SYSTEM "book_sriharshini.dtd">
 <books> 
 	<book>
 		<title> The Great Gatsby  </title>
