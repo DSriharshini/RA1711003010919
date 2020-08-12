@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="book_sriharshini.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<books> 
+	<book>
+		<title> The Great Gatsby </title>
+		<author> F. SCOTT FITZ </author>
+		<genre> Thriller </genre>
+		<copyright> 1967 </copyright>
+		<edition> First </edition>
+		<isbn> 168-078457389 </isbn>
+		<publisher>G Scott </publisher>
+		<price> 300 </price>
+ 	</book>
+ 	<book>
+		<title> Harry Porter </title>
+		<author> JK ROWLING </author>
+		<genre> Fiction </genre>
+		<copyright> 2000</copyright>
+		<edition> First </edition>
+		<isbn> 168-348694231 </isbn>
+		<publisher> Bloomsbury </publisher>
+		<price> 500 </price>
+	</book>
+	<book>
+		<title> Oliver Twist </title>
+		<author> CHARLES DICKENS </author>
+		<genre> Drama </genre>
+		<copyright> 1837 </copyright>
+		<edition> First </edition>
+		<isbn> 168-050940107 </isbn>
+		<publisher> Richard Bently </publisher>
+		<price> 550 </price>
+ 	</book>
+ 	<book>
+		<title> Three Mistakes Of My Life</title>
+		<author> CHETAN BHAGAT </author>
+		<genre> Drama </genre>
+		<copyright> 2010 </copyright>
+		<edition> First </edition>
+		<isbn> 168-812916730 </isbn>
+		<publisher> Rupa Publications </publisher>
+		<price> 300 </price>
+ 	</book>
+ 	<book>
+		<title> Concepts Of Physics </title>
+		<author> HC VERMA </author>
+		<genre> Education </genre>
+		<copyright> 1992 </copyright>
+		<edition> First </edition>
+		<isbn> 168-974630078 </isbn>
+		<publisher> Bharati Bhawan </publisher>
+		<price> 650 </price>
+ 	</book>
+</books>
